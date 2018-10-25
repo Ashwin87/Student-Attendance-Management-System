@@ -47,7 +47,7 @@ The main aim of the Student Attendance System project is to maintain the attenda
 
 6. Finally Build and Run the application.
 
-Note: If your Database is not connected then you would cannot connect to different modules. Make sure your SQL connection is proper with no errands.
+### Note: If your Database is not connected then you would cannot connect to different modules. Make sure your SQL connection is proper           with no errands.
 
 ## Thank You !!!!!!
 
