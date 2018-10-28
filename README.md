@@ -5,6 +5,7 @@ modules:
 1. Admin Module
 2. Staff Module
 3. Student Module
+
 The main aim of the Student Attendance System project is to maintain the attendance records of each and every student who enrolls in the school or college. 
 
 ### Admin Functionalities:
