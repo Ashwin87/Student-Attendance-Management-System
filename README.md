@@ -1,4 +1,4 @@
-# Student-Attendance-Management-System
+# Attendance-Management-System
   ## Project Description:
 The student attendance management system project is used to maintain students attendance records. 
 modules:
