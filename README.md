@@ -32,13 +32,13 @@ The main aim of the Student Attendance System project is to maintain the attenda
 
 # How to run this project ?
 
-1. Download the Student Attendance System Project along with SQL-Server Database Stored Procedure 
+1. Download the Student Attendance System Project along with the "Database Stored Procedures" scripts
    Text file known as "AttendanceSP.txt" which contains all the scripts and tables.
    
 2. Create a new Database in your Visual Studio IDE and "Right Click" on the new database to add a new query. 
 
-3. Firtstly, in the new Query (SQLQuery1.sql) copy and paste the entire scripts from "AttendanceSP.txt" file and update the database
-   and execute the query.
+3. Firtstly, in the new Query (SQLQuery1.sql) copy and paste the entire scripts along with the "Stored Procedues" 
+   from "AttendanceSP.txt" file and update the database and execute the query.
    
 4. Now select the "web.config" form from the solution explorer and replace the database name with your new database name 
    and save it.
@@ -47,7 +47,7 @@ The main aim of the Student Attendance System project is to maintain the attenda
 
 6. Finally Build and Run the application.
 
-### Note: If your Database is not connected then you would cannot connect to different modules. Make sure your SQL connection is proper           with no errands.
+### Note: If your Database is not connected then you would cannot connect to different modules. Make sure your SQL connection is proper            in the web config page with no errands.
 
 ## Thank You !!!!!!
 
