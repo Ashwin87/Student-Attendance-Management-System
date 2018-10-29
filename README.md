@@ -1,7 +1,8 @@
 # Attendance-Management-System
   ## Project Description:
-The student attendance management system project is used to maintain students attendance records. 
-modules:
+The student attendance management system project is used to maintain students attendance records.
+
+The three modules are:
 1. Admin Module
 2. Staff Module
 3. Student Module
