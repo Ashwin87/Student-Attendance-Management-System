@@ -9,7 +9,7 @@
 {
     height:120px;
     width:900px;
-    border:solid 1px #ccc;
+    
     margin-bottom:10px;
     font-weight: 700;
     text-align: center;
@@ -26,7 +26,7 @@
     width:300px;
     border:solid 1px #ccc;
     margin:0 auto; 
-        border-top: solid 15px #6699ff;
+        border-top: solid 15px #ED1941;
         background:#fff;
         margin-top:100px;
         }
@@ -48,14 +48,17 @@
         border:solid 1px #ccc;
         margin-top:3px;
         border-radius:4px;
+        font-size:12px;
         }
         
         .lbtn
-        { height:35px;
+        {
+        height:35px;
         width:200px;
         padding-left:8px;
-        border:solid 1px #ccc; background:#2D71FF;
-       
+        border:solid 1px #ccc;
+        background:#ED1941;
+        text-transform: uppercase;
         margin-top:3px;
         color:#fff;
         border-radius:4px;
@@ -104,20 +107,20 @@
           
           
           }
-          
-           .btnmenu
-        { height:35px;
-        width:225px;
-        padding-left:8px;
-        border:solid 1px #ccc;
-         background:#2D71FF;
-        margin-top:1px;
-        font-weight:bold;
-        font-size:medium;
-        color:#fff;
-      
-        transition: background 1s ease;
-        }
+
+.btnmenu {
+    height: 35px;
+    width: 225px;
+    padding-left: 8px;
+    border: solid 1px #ccc;
+    background: chocolate;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    transition: background 1s ease;
+}
         
          .btnmenu:hover
         { 
@@ -127,9 +130,10 @@
         padding-left:8px;
         border:solid 1px #ccc;
       
-         background:#6699ff;
+         background:#ED1941;
         margin-top:1px;
         color:#fff;
+        
       
         
         }
@@ -137,21 +141,19 @@
         .tbl
         {
             width:100%;
-            border:solid 1px #6699ff;
+            border:solid 1px #EEE;
             
             
             }
-            
-            .tblhead
-            {
-                height:35px;
-                font-size:medium;
-                font-weight:bold;
-                color:#fff;
-                 background:#2D71FF;
-                text-align:center;
-                
-                }
+
+.tblhead {
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    background: #999999;
+    text-align: center;
+}
                 
                 
    .txt
@@ -177,13 +179,14 @@
         width:100px;
         padding-left:8px;
         border:solid 1px #ccc;
-        background:#6699ff;
+        background:#ED1941;
         margin-top:5px;
         font-weight:bold;
         font-size:14px;
         color:#fff;
         border-radius:4px;
         transition: background 1s ease;
+        font-family: 'Raleway', sans-serif;
         }
         
          .btn:hover
@@ -202,7 +205,7 @@
         
         .lbl
         {
-            color:#004AE6;
+            color:chocolate;
             text-align:right;
             
             }

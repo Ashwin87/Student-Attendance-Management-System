@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
     <div id="aheader">
        
-        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/logo1.png" />
+        <a class="navbar-brand text-center" href="#"><i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i> <br />Attendance Management System </a
        
     </div>
     <div id="main">
@@ -26,7 +26,7 @@
             <tr>
                 <td>
                     <asp:Button ID="Button1" runat="server" CssClass="btnmenu" 
-                        Text="ADD Standerd" PostBackUrl="~/Admin/AddStd.aspx" />
+                        Text="ADD Standard" PostBackUrl="~/Admin/AddStd.aspx" />
                 </td>
             </tr>
             <tr>

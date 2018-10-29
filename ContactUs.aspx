@@ -4,12 +4,9 @@
     <style type="text/css">
     .style1
     {
-        width: 277px;
+        width: 50%;
     }
-        .style2
-        {
-            font-family: Georgia;
-        }
+       
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -27,11 +24,11 @@
             <table align="center" class="style1">
                 <tr>
                     <td style="font-size: x-large">
-                        <span class="style2">Attendance Portal,</span><br class="style2" />
-                        <span class="style2">101, ABC Arcade,</span><br class="style2" />
-                        <span class="style2"></span><br class="style2" />
+                        <span class="style2">Attendance Management System,</span><br class="style2" />
+                        <span class="style2">abc@gmail.com</span><br class="style2" />
+                        <span class="style2">Toronto,ON,L3KT97 </span><br class="style2" />
                         <br class="style2" />
-                        <span class="style2">Contact&nbsp; : 7878787878</span></td>
+                        <span class="style2">Contact&nbsp; : +1 7746572396</span></td>
                 </tr>
                 <tr>
                     <td>

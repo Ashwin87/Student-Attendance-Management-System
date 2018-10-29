@@ -2,10 +2,18 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
-        .style1
+         #Button9
         {
-            width: 303px;
+            width: 138px;
         }
+        .form-control {
+          width: 61%;
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid #a94442;
+          border-radius: 0;
+        }
+        
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -20,7 +28,7 @@
     </tr>
     <tr>
         <td>
-            <table align="center" class="style1">
+            <table align="center" width="70%">
                 <tr>
                     <td>
                         &nbsp;</td>
@@ -29,33 +37,40 @@
                 </tr>
                 <tr>
                     <td class="lbl">
-                        Enter Name :</td>
+                        Enter Name</td>
                     <td>
-                        <asp:TextBox ID="txtemail" runat="server" CssClass="txt"></asp:TextBox>
+                        <div class="form-group">
+                        <asp:TextBox ID="txtemail" runat="server" CssClass="form-control"></asp:TextBox>
+                            </div>
                     </td>
                 </tr>
                 <tr>
                     <td class="lbl">
-                        Contact :
+                        Contact
                     </td>
                     <td>
-                        <asp:TextBox ID="txtcont" runat="server" CssClass="txt"></asp:TextBox>
+                        <div class="form-group">
+                        <asp:TextBox ID="txtcont" runat="server" CssClass="form-control"></asp:TextBox>
+                            </div>
                     </td>
                 </tr>
                 <tr>
                     <td class="lbl">
-                        Feddback :</td>
+                        Feedback </td>
                     <td>
-                        <asp:TextBox ID="txtfeed" runat="server" CssClass="txt" Height="40px" 
-                            TextMode="MultiLine" Width="160px"></asp:TextBox>
+
+                        <div class="form-group">
+                        <asp:TextBox ID="txtfeed" runat="server" CssClass="form-control" Height="100px" 
+                            TextMode="MultiLine"></asp:TextBox>
+                            </div>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         &nbsp;</td>
-                    <td>
+                    <td align="center">
                         <asp:Button ID="Button9" runat="server" CssClass="btn" Text="Send Feedback" 
-                            Width="120px" onclick="Button9_Click" />
+                             onclick="Button9_Click" />
                     </td>
                 </tr>
                 <tr>
